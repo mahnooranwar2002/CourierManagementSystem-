@@ -1,0 +1,172 @@
+.box{
+    width: 100%;
+    background:url(/public/img/carousel-2.jpg);
+    height: 100vh;
+}
+:root {
+    --primary: #FF3E41;
+    --secondary: #51CFED;
+    --light: #F8F2F0;
+    --dark: #060315;
+  }
+  
+.myform{
+    height: 570px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.formchild{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.formchild h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+.formchild  label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.formchild input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}  
+.formchild ::placeholder{
+    color: #e5e5e5;
+}
+.formchild   button{
+    margin-top: 50px;
+    width: 100%;
+    border: none;
+    --bs-bg-opacity: 1;
+    background-color:rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box1{
+    height: 100%;
+    
+    background-color: #0b1d2031;
+
+}
+.links{
+  
+    text-align: center;
+    text-decoration: none;
+    color: white !important;
+  }
+  .bo098{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .box072{
+    width: 100%;
+    background:url(/public/img/block.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.box14{
+    height: 100%;
+    width: 100%;
+    background-color: #00040580;
+}
+.blockchild{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    text-align: justify;
+    padding:15px;
+}
+.blockchild h3{
+    text-align: center !important;
+    margin-top: 10px;
+}
+.blockchild h4{
+    text-align: center !important;
+    margin-top: 10px;
+}
+.blockchild h5{
+    text-align: center !important;
+    margin-top: 10px;
+}
+
+.blockchild h6{
+    text-align: center !important;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.myblockChild{
+    height: 320px;
+    width: 800px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.myblockChild  .buttongh{
+    margin-top: 50px;
+    width: 300px !important;
+    border: none;
+    --bs-bg-opacity: 1;
+    background-color:rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnt{
+    color: white;
+    text-decoration: none;
+    border-radius: 4.5px;
+    width: 100px;
+    height: 30px;
+    --bs-bg-opacity: 1;
+    background-color:rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+    padding: 15px;
+}
+.fs{
+    background-color: rebeccapurple;
+    height: 100%;
+}
